@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--  SET THE CHARACTER SET -->
+<meta charset="UTF-8">
+<!--  SET THE PAGE TITLE (SHOWN IN TAB ON CHROME)-->
+<title>Session 03 Task 2 - About Page</title>
+<!--  SETUP SOME META DATA FOR THIS PAGE -->
+<meta name="keywords" content="HTML,CSS,4122COMP">
+<meta name="author" content="Dr Chris Carter">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--  INCLUDE OUR CSS STYLE SHEETS -->
+<link rel="stylesheet" type="text/css" href="semantic.css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1>4122COMP: Semantic Layout</h1>
+			<h3>Web Content with meaning.</h3>
+		</header>
+		<nav>
+			<ul>
+				<li>Session 1</li>
+				<li>Session 2: Task 3</li>
+				<li>Session 3: Task 1</li>
+			</ul>	
+		</nav>
+		<div id="main">
+			<main>
+			<section id="aboutsite">
+				<hgroup>
+					<h2>About this Site</h2>
+					<h4>Why is Semantic Markup Beneficial?</h4>
+			    </hgroup>
+				<p>	
+				By using semantic markup another application such as a search engine can interpret
+				what our content is meant to represent.  
+				</p>
+			</section>
+			<section id="aboutauthor">
+				<hgroup>
+					<h2>About the Author</h2>
+					<h4>Who is Dr Chris Carter?</h4>
+			    </hgroup>
+				<p>
+				He is the module leader for this module and the person who developed this example site.  I hope that
+				it shows some of the practical uses of semantic markup and that you enjoying the module so far. 
+				</p>
+				<aside>
+					Dr Chris Carter also teaches Game Programming in C++ using
+					<a href="https://www.unrealengine.com/">Unreal Engine 4</a>
+				</aside>			
+			</section>
+			<section id="comments">
+				<hgroup>
+					<h2>We want your feedback</h2>
+					<h4>Any comments posted will appear below:</h4>
+			    </hgroup>
+				<article id="c1">
+					<h4>Not a bad example...</h4>
+					<h5>David Tully</h5>
+					<p>I think this semantic markup is making some sense!</p>
+				</article>
+				<article id="c2">
+					<h4>Need to design our layouts</h4>
+					<h5>David Lamb</h5>
+					<p>We could design our layout using Wireframes, maybe i'll show them how...</p>
+				</article>
+			</section>
+			</main>			
+		</div>
+		<aside>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>To Do</li>
+			</ul>		
+		</aside>
+		<footer>
+			<ul>
+				<li>Copyright &copy; LJMU 2019</li>
+				<li>LJMU Home Page <a href="http://www.ljmu.ac.uk/">Click Here</a></li>
+				<li><a href="http://www2.ljmu.ac.uk/cmp/">Department of Computer Science</a></li>
+			</ul>			
+		</footer>
+	</div>
+</body>
+</body>
+</html>

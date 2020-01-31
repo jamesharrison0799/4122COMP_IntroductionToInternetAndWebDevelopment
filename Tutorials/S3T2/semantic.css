@@ -1,0 +1,159 @@
+* Makeshift CSS Reset */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Tell the browser to render HTML 5 elements as block */
+header, footer, section, aside, nav, article
+{
+    display: block;
+}
+
+body
+{
+    margin: 0 auto;
+    padding: 22px 0;
+    width: 960px;
+    font: 13px/22px Helvetica, Arial, sans-serif;
+    background: #FFFFFF;
+}
+
+#wrapper
+{
+    width: 960px;
+}
+
+h1
+{
+    font-size: 40px;
+    line-height: 44px;
+    padding: 40px 0 0 20px;
+}
+h2
+{
+    color: #000000;
+}
+
+h3
+{
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 40px;
+}
+
+p
+{
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+header
+{
+    height: 150px;
+    color: #FFFFFF;
+    background-color: #FF6600;
+}
+
+nav
+{
+	margin: 10px 0px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #cc2200;
+}
+
+nav ul
+{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li
+{
+    display: inline;
+    padding: 0px 20px;
+    font-size: medium;
+}
+
+aside ul
+{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+aside ul li
+{
+    padding: 5px;
+}
+
+#main
+{
+    padding-top: 20px;
+    width: 760px;
+    float: right;
+}
+article
+{
+  width: 760px;  
+}
+
+section
+{
+	padding-left: 20px;
+	background: #fff5e0;
+	margin:  20px 0px;
+	border: 1px solid #555;
+	
+}
+
+section aside
+{
+	font-style: italic;	
+}
+
+section#comments
+{
+	background: #eee;
+}
+
+section article
+{
+	color: #fff;
+	padding: 0px 20px;
+	margin: 20px;
+	width: 90%;
+	border: 1px dotted #555;
+	text-size: 0.8em;
+	background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%);
+}
+
+footer
+{
+    float:right;
+    height: 150px;
+    width: 960px;
+    background: #444;
+}
+
+footer ul
+{
+	list-style: none;	
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+a
+{
+    color: #ccc;
+    text-decoration: none;
+}
