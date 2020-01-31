@@ -23,27 +23,125 @@
 				<li>Session 1</li>
 				<li>Session 2: Task 3</li>
 				<li>Session 3: Task 1</li>
-			</ul>	
+			</ul>
 		</nav>
 		<div id="main">
 			<main>
-			
-			
-			</main>			
+				<article id="a1">
+					<h2>Semantic Content: Modern HTML5</h2>
+					<section>
+						<h3>What is Semantic markup?</h3>
+						<p>Semantic Markup is the use of HTML markup to reinforce thead
+							meaning of information in webpages and applications rather than
+							merely to define its presentation or look.</p>
+					</section>
+
+					<section>
+						<h3>What are the semantic tags?</h3>
+						<article>
+							<h4>Article</h4>
+							<p>Should define independent, self defined content, such as a newspaper
+article, individual comment, blog post, match report etc.</p>
+							<pre>
+<code>
+&lt;article id="a1"&gt;
+	&lt;h2&gt;Post 1&lt;/h2&gt;
+	&lt;p&gt;Posted on &lt;time datetime="2019-01-01T20:30+00:00"&gt;1st January 2019&lt;/time&gt;
+	by &lt;em&gt;Dr Chris Carter&lt;/em&gt;&lt;/p&gt;
+	&lt;div&gt;
+		&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		Proin euismod tellus eu orci imperdiet nec rutrum lacus blandit. &lt;/p&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+</code>
+							</pre>
+						</article>
+
+						<article>
+							<h4>Section</h4>
+							<p>Should be used to group content, particularly with a heading and for
+representing an area of a site which contains multiple parts (e.g. downloads,
+reports, contact details etc). </p>
+							<pre>
+<code>
+&lt;section id="aboutsite"&gt;
+	&lt;hgroup&gt;
+		&lt;h2&gt;About this Site&lt;/h2&gt;
+		&lt;h4&gt;Why is &lt;strong&gt;&lt;strong&gt;semantic markup&lt;/strong&gt;
+		&lt;/strong&gt; Beneficial?&lt;/h4&gt;
+		&lt;/hgroup&gt;
+	&lt;p&gt;
+	By using &lt;strong&gt;semantic markup&lt;/strong&gt; another application such as a
+	&lt;em&gt;search engine&lt;/em&gt; can interpret
+	what our content is meant to represent.
+	&lt;/p&gt;
+&lt;/section&gt;
+</code>
+							</pre>
+
+
+						</article>
+
+						<article>
+							<h4>Aside</h4>
+							<p>used to define content aside from the content it is placed in. For example,
+in a document, an aside could contain links that are relevant to the current
+document, when used in an article, it could be used to define terms that are
+used in the article</p>
+							<pre>
+<code>
+&lt;main&gt;
+&lt;!-- Content --&gt;
+&lt;/main&gt;
+
+&lt;aside&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Home&lt;/li&gt;
+		&lt;li&gt;About&lt;/li&gt;
+		&lt;li&gt;To Do&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/aside&gt;
+</code>
+							</pre>
+
+
+						</article>
+
+						<article>
+							<h4>Nav</h4>
+							<p>Defines a block of navigation links that help access other documents across
+your web application.</p>
+							<pre>
+<code>
+&lt;nav&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Session 1&lt;/li&gt;
+		&lt;li&gt;Session 2: Task 3&lt;/li&gt;
+		&lt;li&gt;Session 3: Task 1&lt;/li&gt;
+		&lt;li&gt;Forth Item&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+</code>
+							</pre>
+						</article>
+					</section>
+				</article>
+
+			</main>
 		</div>
 		<aside>
 			<ul>
 				<li>Home</li>
 				<li>About</li>
 				<li>To Do</li>
-			</ul>		
+			</ul>
 		</aside>
 		<footer>
 			<ul>
 				<li>Copyright &copy; LJMU 2019</li>
-				<li>LJMU Home Page <a href="http://www.ljmu.ac.uk/">Click Here</a></li>
-				<li><a href="http://www2.ljmu.ac.uk/cmp/">Department of Computer Science</a></li>
-			</ul>			
+				<li><a href="http://www.ljmu.ac.uk/">LJMU Home Page Click Here</a></li>
+				<li>Department of <a href="http://www2.ljmu.ac.uk/cmp/">Computer Science</a></li>
+			</ul>
 		</footer>
 	</div>
 </body>
